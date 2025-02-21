@@ -1,0 +1,22 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:3
+
+pipelines:
+  branches:
+    demo:
+      - step:
+          script:
+            - npm i
+            - npm run-script build
+            - pipe: atlassian/aws-s3-deploy:1.1.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID_S3
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_KEY_S3
+                S3_BUCKET: 'medscenarios'
+                AWS_DEFAULT_REGION: 'eu-central-1'
+                LOCAL_PATH: './dist'
+                ACL: 'public-read'
+                DELETE_FLAG: 'true'

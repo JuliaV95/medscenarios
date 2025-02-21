@@ -1,0 +1,11 @@
+@import '@/scss/components/dynamic-card';
+
+.home {
+  background: url("@/assets/background.jpg");
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
