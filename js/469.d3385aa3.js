@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmedscenarios"]=self["webpackChunkmedscenarios"]||[]).push([[469],{2469:function(n,e,s){s.r(e),s.d(e,{default:function(){return l}});var i=function(){var n=this,e=n._self._c;return e("div",{staticClass:"icon-box"},[e("div",{staticClass:"icon-box-img-wrapper"},[e("img",{attrs:{src:n.icon}})]),e("span",[n._v(n._s(n.label))])])},r=[],a={name:"DynamicInfoIcon",props:{icon:{required:!0},label:{type:String,required:!0}}},c=a,t=s(1001),o=(0,t.Z)(c,i,r,!1,null,"6fb7d6a8",null),l=o.exports}}]);
+//# sourceMappingURL=469.d3385aa3.js.map

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmedscenarios"]=self["webpackChunkmedscenarios"]||[]).push([[771],{771:function(t,n,e){e.r(n),e.d(n,{default:function(){return i}});var u=function(){var t=this,n=t._self._c;return n("button",{staticClass:"card-btn"},[t._v(t._s(t.buttonText))])},r=[],s={name:"CardButton",props:{buttonText:{require:!0,value:String}}},a=s,c=e(1001),o=(0,c.Z)(a,u,r,!1,null,"2a8a27b4",null),i=o.exports}}]);
+//# sourceMappingURL=771.f2bca71f.js.map
